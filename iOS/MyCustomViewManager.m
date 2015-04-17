@@ -12,6 +12,8 @@
 
 @implementation MyCustomViewManager
 
+RCT_EXPORT_MODULE();
+
 RCT_EXPORT_VIEW_PROPERTY(isRed, BOOL)
 
 - (UIView *)view
